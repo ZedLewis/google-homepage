@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+#navbar { 
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 75px 75px;
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    "about Store Gmail Images menu Sign-in"
+    ;
+}
+a {
+    text-decoration: none;
+    color: rgb(22, 21, 21);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#about {
+    grid-area: about;
+    justify-self: center;
+    align-self: center;
+}
+#Store {
+    grid-area: Store;
+    justify-self: flex-start;
+    align-self: center;
+    
+}
+#Gmail {
+    grid-area: Gmail; 
+    justify-self: center;
+    align-self: center;
+}
+#Images {
+    grid-area: Images;
+    justify-self: center;
+    align-self: center;
+}
+#menu {
+    grid-area: menu; 
+    justify-self: center;
+    align-self: center;
+}
+#Sign-in {
+    grid-area: Sign in;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+}
