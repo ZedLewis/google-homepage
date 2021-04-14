@@ -1,8 +1,7 @@
 html {
     height: 100%;
     min-height: 100%;
-}
-
+}/*Navbar section*/
 #navbar { 
     display: grid;
     grid-template-columns: 50px 1fr 50px 75px 75px;
@@ -48,7 +47,7 @@ a {
     justify-self: center;
     align-self: center;
 }
-
+/*Main section*/
 #main {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
@@ -77,7 +76,49 @@ a {
     justify-self: center;
     align-self: center;
 }
-#google-search-button{
+
+/*Footer section*/
+#footer {
+    display: grid; 
+    grid-template-columns: 100px 100px 150px 1fr 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+    grid-template-areas: 
+    ". . . . . . ."
+    "ads business hsw . privacy terms settings"
 }
-#im-feeling-lucky{
+
+#ads {
+    grid-area: ads;
+    justify-self: center;
+    align-self: center;
+}
+
+#business {
+    grid-area: business;
+    justify-self: center;
+    align-self: center;
+}
+
+#hsw {
+    grid-area: hsw;
+    justify-self: center;
+    align-self: center;
+}
+
+#privacy {
+    grid-area: privacy;
+    justify-self: flex-end;
+    align-self: center;
+}
+
+#terms {
+    grid-area: terms;
+    justify-self: center;
+    align-self: center;
+}
+
+#settings {
+    grid-area: settings;
+    justify-self: center;
+    align-self: center;
 }
