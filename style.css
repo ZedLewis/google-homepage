@@ -69,7 +69,17 @@ a {
     display: grid;
     grid-area: search;
     align-self: center;
+    justify-self: center;
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    
 }
+
+#search:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
 #flexbox {
     display: flexbox;
     grid-area: flexbox;
@@ -79,8 +89,11 @@ a {
 
 /*Footer section*/
 #footer {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
     display: grid; 
-    grid-template-columns: 100px 100px 150px 1fr 100px 100px 100px;
+    grid-template-columns: 100px 100px 150px 1fr 70px 70px 50px;
     grid-template-rows: 50px 50px;
     grid-template-areas: 
     ". . . . . . ."
