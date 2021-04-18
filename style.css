@@ -46,7 +46,17 @@ a {
     grid-area: Sign in;
     justify-self: center;
     align-self: center;
+    color: #ffff; 
+    background-color:rgb(26, 115, 232);
+    border: 1px solid transparent;
+    min-width: 96px; 
+    font-size: 14px;
+    text-align: center;
+    margin-right: 8px; 
+    padding: 9px 1px 9px 1px;
+    border-radius: 5px;
 }
+
 /*Main section*/
 #main {
     display: grid; 
@@ -86,6 +96,37 @@ a {
     justify-self: center;
     align-self: center;
 }
+
+#google-search-button {
+    border: none;
+    font-size: 15px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 6px;
+    padding: 0 16px;
+    height: 36px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+#google-search-button:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
+#im-feeling-lucky {
+    border: none;
+    font-size: 15px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 6px;
+    padding: 0 16px;
+    height: 36px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+#im-feeling-lucky:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
 
 /*Footer section*/
 #footer {
